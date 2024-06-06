@@ -102,6 +102,7 @@ export class UserStayCanvas {
       canvas.style.position = "absolute"
       canvas.style.top = "0"
       canvas.style.left = "0"
+      canvas.tabIndex = 1
       this.container.appendChild(canvas)
       canvasLayers.push(canvas)
     })

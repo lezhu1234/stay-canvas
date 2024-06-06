@@ -11,8 +11,6 @@ import {
   wheel,
 } from "../rawEvents"
 import { Point, Root, Shape } from "../shapes"
-// import { Point } from "../shapes/point"
-// import { Root } from "../shapes/root"
 import { EventProps, StayAction, StayEventMap, StayEventProps } from "../types"
 import {
   ALLSTATE,

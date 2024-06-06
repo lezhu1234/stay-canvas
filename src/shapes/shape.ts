@@ -44,8 +44,8 @@ export abstract class Shape {
   }: ShapeProps) {
     this.color = color || "white"
     this.lineWidth = lineWidth || 1
-    this.area = 0 // this is a placeholder for the area property that will be implemented in the subclasses
-    this.type = type || SHAPE_DRAW_TYPES.STROKE // this is a placeholder for the type property that will be implemented in the subclasses
+    this.area = 0
+    this.type = type || SHAPE_DRAW_TYPES.STROKE
     this.zoomY = 1
     this.zoomCenter = { x: 0, y: 0 }
     this.gco = gco || "source-over"
@@ -66,11 +66,9 @@ export abstract class Shape {
   }
 
   _draw({ context, canvas, now }: ShapeDrawProps) {
-    // console.log("draw")
     context.lineWidth = this.lineWidth
     context.globalCompositeOperation = this.gco
     this.setColor(context, this.color)
-    // this.draw({ context, canvas, now })
     this.stateDrawFuncMap[this.state].bind(this)({ context, canvas, now })
   }
 
