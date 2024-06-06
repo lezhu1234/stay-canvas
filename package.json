@@ -31,7 +31,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && npm version patch && npm publish"
+    "build": "tsc && vite build"
   },
   "devDependencies": {
     "typescript": "^5.4.5",

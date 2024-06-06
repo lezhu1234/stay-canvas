@@ -11,7 +11,12 @@
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist",
+
+    "allowSyntheticDefaultImports": true,
 
     /* Linting */
     "strict": true,
@@ -19,5 +24,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src/**/*"]
 }

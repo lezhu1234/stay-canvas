@@ -2,7 +2,7 @@ import Canvas from "./canvas"
 import { Point } from "./shapes/point"
 import { Shape } from "./shapes/shape"
 import { StepProps, valueof } from "./stay/types"
-import { UserCallback } from "./types"
+import { ContextLayerSetFunction, EventProps, UserCallback } from "./types"
 import { DRAW_ACTIONS, SORT_CHILDREN_METHODS } from "./userConstants"
 
 export type StayChildren = Record<string, StayChild>
@@ -137,4 +137,14 @@ export declare class StayChild<T extends Shape = Shape> {
   ): StepProps | undefined
   copy(): StayChild<T>
   _update({ className, layer, shape, zIndex }: UpdateStayChildProps<T>): void
+}
+
+export interface UserStayCanvasProps {
+  id: string | HTMLDivElement
+  width: number
+  height: number
+  layers?: number | ContextLayerSetFunction[]
+  eventList?: EventProps[]
+  listenerList?: ListenerProps[]
+  mounted?: (tools: StayTools) => void
 }
