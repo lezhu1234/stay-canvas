@@ -1,12 +1,25 @@
 {
   "name": "stay-canvas",
-  "private": true,
   "version": "0.0.3",
   "type": "module",
   "files": [
     "dist",
     "index.d.ts"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lezhu1234/stay-canvas.git"
+  },
+  "keywords": [
+    "react",
+    "canvas"
+  ],
+  "author": "lezhu <lezhu1234@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lezhu1234/stay-canvas/issues"
+  },
+  "homepage": "https://github.com/lezhu1234/stay-canvas#readme",
   "main": "./dist/counter.umd.cjs",
   "module": "./dist/stay-canvas.js",
   "types": "./dist/index.d.ts",
