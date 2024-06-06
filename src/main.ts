@@ -64,6 +64,12 @@ export class UserStayCanvas {
     if (!this.container || this.container.tagName !== "DIV") {
       throw new Error("stay canvas container should be a div")
     }
+    this.container.style.width = `${this.width}px`
+    this.container.style.height = `${this.height}px`
+    this.container.style.position = "relative"
+    this.container.style.display = "flex"
+    this.container.style.justifyContent = "center"
+    this.container.style.alignItems = "center"
     return this.container
   }
 
