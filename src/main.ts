@@ -61,7 +61,7 @@ export class UserStayCanvas {
       this.container = this.id
     }
 
-    if (this.container.tagName !== "DIV") {
+    if (!this.container || this.container.tagName !== "DIV") {
       throw new Error("stay canvas container should be a div")
     }
     return this.container
