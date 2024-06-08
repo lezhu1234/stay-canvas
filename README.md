@@ -101,7 +101,7 @@ npm install stay-canvas
 </head>
 <body>
   <div id="demo"></div>
-  <script type="module" src="/src/examples/demo/main.ts"></script>
+  <script type="module" src="docs//src/examples/demo/main.ts"></script>
 </body>
 </html>
 ```
@@ -151,7 +151,7 @@ new StayCanvas({
 })
 ``` 
 
-<video src="videos/demo.mp4" controls="">
+<video src="docs/videos/demo.mp4" controls="">
 </video>
 
 ## More Examples
@@ -600,7 +600,7 @@ const stay = new StayCanvas({
     },
   }
   ```
-  <video src="videos/state-map.mp4" controls="">
+  <video src="docs/videos/state-map.mp4" controls="">
   </video>
 
 ##### Animation
@@ -620,7 +620,7 @@ const stay = new StayCanvas({
   ...
   ```
 
-  <video src="videos/shape-anim.mp4" controls="">
+  <video src="docs/videos/shape-anim.mp4" controls="">
   </video>
   
   You can combine animation libraries such as [gsap](https://gsap.com/) and [tween](https://github.com/tweenjs/tween.js) to achieve more rich animation effects.
@@ -1213,7 +1213,7 @@ We can modify some code in the initial example's main.ts file to simply understa
 
 ```
 
-<video src="videos//redo-undo.mp4" controls="">
+<video src="docs/videos//redo-undo.mp4" controls="">
 </video>
 
 ##### triggerAction
