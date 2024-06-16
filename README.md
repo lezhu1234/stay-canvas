@@ -151,8 +151,10 @@ new StayCanvas({
 })
 ``` 
 
-<video src="docs/videos/demo.mp4" controls="">
-</video>
+
+
+https://github.com/lezhu1234/stay-canvas/assets/11953013/bc9ad3ed-7f93-40b8-a39d-8dd2730303f6
+
 
 ## More Examples
 https://github.com/lezhu1234/demo-stay-canvas
@@ -600,8 +602,11 @@ const stay = new StayCanvas({
     },
   }
   ```
-  <video src="docs/videos/state-map.mp4" controls="">
-  </video>
+
+
+
+https://github.com/lezhu1234/stay-canvas/assets/11953013/6a281c7d-9c78-48b9-9390-be77cc92ea8e
+
 
 ##### Animation
 
@@ -620,9 +625,11 @@ const stay = new StayCanvas({
   ...
   ```
 
-  <video src="docs/videos/shape-anim.mp4" controls="">
-  </video>
   
+
+https://github.com/lezhu1234/stay-canvas/assets/11953013/5bd0fc66-d9f5-431f-be2b-2261814dd94c
+
+
   You can combine animation libraries such as [gsap](https://gsap.com/) and [tween](https://github.com/tweenjs/tween.js) to achieve more rich animation effects.
 
 
@@ -1213,8 +1220,11 @@ We can modify some code in the initial example's main.ts file to simply understa
 
 ```
 
-<video src="docs/videos//redo-undo.mp4" controls="">
-</video>
+
+
+https://github.com/lezhu1234/stay-canvas/assets/11953013/e54d5e9f-a06f-4a43-bd2e-b8ca931051c1
+
+
 
 ##### triggerAction
 
